@@ -1,0 +1,20 @@
+{
+    "name": "cramirez/contact",
+    "description": "This will send emial to admin and save contact query on database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Ramirez",
+            "email": "c.and.95@outlook.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    
+    "autoload": {
+        "psr-4": {
+            "Cramirez\\Contact\\": "src/"
+        }
+    }
+}
