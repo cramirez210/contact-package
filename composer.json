@@ -16,5 +16,12 @@
         "psr-4": {
             "Cramirez\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cramirez\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
